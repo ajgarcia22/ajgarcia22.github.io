@@ -1,42 +1,152 @@
+
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Armando Garcia</title>
-        
-        <style>
-            body{background-color:black;}
-            #pollo{ color:blue;}
-            h2{color:blue;}
-            a{color:pink;}
-        
-            #list{color:pink;}
-            ul{color:pink;}
-            #main{color:red;}
-        </style>
-        
-    </head>
-    <body id="football">
+<head>
+  <!-- TODO: Update Title -->
+  <title>Armando Garcia  Web Page</title>
+  
+  <!-- Include the following stylesheet (controls sytle of navbar and footer) -->
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  
+  <!-- TODO: Change CSS colors and image so that it matches your desired theme -->
+  <style>
+    body {
+      font-family: Verdana;
+      background-color:#C2C2C2;
+    }
     
-        <div id="navbar">
-        <ul>
-            <li><a href="#football">Home</a></li>
-            <li><a href="#dogs">About Me</a></li>
-            <li><a href="#soccer">Portfolio</a></li> 
+    /* TODO: Make sure the height of your page is big enough */
+    .main {
+      clear: left;
+      min-width: 600px;
+      max-width: 800px;
+      height:650px;
+      margin:0 auto;
+    }
+
+    .main-page{
+      display: block;
+      float:right;
+      background-color:#E0E0E0;
+      height:100%;
+      width:75%;
+      box-sizing:border-box;
+    }
+
+    .sidebar {
+      box-sizing:border-box;
+      padding:10px;
+      float:left;
+      width:25%;
+      height:100%;
+      background-color: #059D8E;
+    }
+
+    .sidebar-nav{
+      margin: 15px 0px;
+      color:#FFFFFF;
+    }
+
+    .sidebar li {
+      margin: 20px 5px 0px;
+    }
+
+    .sidebar ul ul li{
+      margin: 10px 15px 0px;
+      font-size:0.8em;
+    }
+
+    .sidebar ul ul li a{
+      text-decoration: none;
+      color: #FFFFFF;
+    }
+
+    .sidebar ul ul li a:hover{
+      color: #F26101;
+    }
+
+    .image-container {
+      height:300px;
+      width:100%;
+      position: relative;
+      /* TODO: Update the following image */
+      background-image: url("./img/home/south_sister.jpg");
+      background-repeat: no-repeat;
+      background-size: 100% 300px;
+    }
+
+    .main-title {
+      margin: 10px 15px;
+      font-size: 30px;
+    }
+
+    .left-panel{
+      box-sizing: border-box;
+      width: 50%;
+      float:left;
+      padding:20px;
+    }
+
+    .right-panel{
+      box-sizing: border-box;
+      width: 50%;
+      float:left;
+      padding:20px;
+    }
+
+    .sub-title {
+      text-align: center;
+    }
+
+    .text-info {
+      font-size: 0.8em;
+      margin: 20px;
+    }
+
+  </style>
+</head>
+<body>
+    <div class="navbar">
+        <ul class="navigation">
+            <!-- TODO: Ensure that your Navbar is correct -->
+            <li class="active"><a href="">Home</a></li>
+            <li><a href="./portfolio.html">Portfolio</a></li>
         </ul>
+    </div>
+
+    <div class="main">
+        <div class="sidebar">
+            <ul class="sidebar-nav">
+                <!-- TODO: Update the recent projects -->
+                <li><strong>Recent Projects</strong></li>
+                <ul>
+                    <li><a href="./portfolio.html">Shooting Star</a></li>
+                    <li><a href="./portfolio.html">Maze Game</a></li>
+                </ul>
+            </ul>
         </div>
+        <div class="main-page">
+            <div class="image-container"></div>
+            
+            <!-- TODO: Update the page title -->
+            <h1 class="main-title">Armando Garcia Homepage</h1>
+            <!-- TODO: Update the left-panel and right-panel with info from your 90s website -->
+            <div class="left-panel">
+                <h2 class="sub-title">My Background</h2>
+                  <p class="text-info">My name is Armando Garcia and I am born and raised in San Jose, California. I have never lived in another place outside California. That doesn't mean I haven't traveled. I have been to places like Washington D.C, Oregon,Hawaii and to Nevada. As you can tell I love to travel. Another thing I love is Dogs. I am a dog person with 4 dogs.
+            </div>
+            <div class="right-panel">
+                <h2 class="sub-title">What I Do Now</h2>
+                <p class="text-info">I am a founding student at Alpha Cindy Avitia . I play for the schools Soccer team and Flag Football team 
+            </div>
+
+            </div>
+        <!-- TODO: Add anything you want to the footer -->
+        <div class="footer">
+        </div>
+    </div>
     
-        <div id="main">
-            <!-- Put all of your main HTML here -->
-            <h1 id="pollo">Armando Garcia</h1>
-        
-    <img src="https://www.kasandbox.org/programming-images/landscapes/beach-sunset.png"width="236">
-            <h2 id="dogs">About me</h2>
-        <p>My name is Armando Garcia and I am born and raised in San Jose, California. I have never lived in another place outside California. That doesn't mean I haven't traveled. I have been to places like Washington D.C, Oregon,Hawaii and to Nevada. As you can tell I love to travel. Another thing I love is Dogs. I am a dog person with 4 dogs.</p>
-         <img src="https://www.kasandbox.org/programming-images/animals/dog_sleeping-puppy.png" alt=" It is a little puppy" width="236">
-         <h2 id="soccer">Portfolio</h2>
-         <p> I have been in school my whole life. I started off in Cassell Elementary but moved to Rocketship because it was a better school for me. From Rocketship I got invited to go to the school Alpha Blanca Alvarado. There I learned so much and improved a lot in reading and math.Then after the Middle School ended i decided to stay with Alpha and go to the Alpha Highschool. Here I am learning so much and I'm thankful for all the amazing teachers that help me in school. 
-         </p> 
-         </div>
-    </body>
+    
+
+</body>
 </html>
