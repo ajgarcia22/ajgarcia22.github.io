@@ -1,14 +1,4 @@
 
-Google logo Drive
-Add to Drive
-HTML/CSS Starter Code3 items
-HTML
-index_template.html
-HTML
-portfolio_starter.html
-
-style.css
-
 /* NAVBAR CSS BEGIN */
     .nav li {
       line-height: 40px;
@@ -31,7 +21,7 @@ style.css
 
     .navbar {
       display:block;
-      background-color: #313732;
+      background-color:	#000000;
       height:80px;
       margin:0 auto;
       min-width:600px;
@@ -48,7 +38,7 @@ style.css
 
     .navigation li a {
       text-decoration: none;
-      color:#FFFFFF;
+      color:blue;
     }
 
     .navigation li:hover {
@@ -56,7 +46,7 @@ style.css
     }
     
     .active {
-        background-color: #4CAF50;
+        background-color:Black;
         color: white;
     }
     /* END NAVBAR CSS */
